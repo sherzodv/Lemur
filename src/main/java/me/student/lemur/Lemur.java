@@ -27,7 +27,7 @@ public class Lemur {
 
     public void eat(String smth) {
         if (fruits.contains(smth)) {
-            fruits.add(smth);
+            getFood().add(smth);
         } else {
             throw new RuntimeException("I don't eat " + smth + "!");
         }
